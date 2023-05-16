@@ -1,0 +1,47 @@
+.photo{
+    float: left;
+}
+
+.footer{
+    clear:both;
+}
+
+
+.experiencephotodiv
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(max-width: 1000px) {
+.experiencephoto{
+
+    width: 700px;
+    
+}
+}
+
+@media(max-width: 600px) {
+    .experiencephoto{
+    
+        width: 500px;
+        
+    }
+    }
+    
+
+@media(max-width: 400px) {
+.experiencephoto{
+    width: 350px;
+    
+}
+
+}
+
+
+.skillstable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
